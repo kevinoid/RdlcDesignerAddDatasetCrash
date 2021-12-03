@@ -3,11 +3,10 @@ Project for Reproduction of RDLC Designer Hang/Crash
 
 This project facilitates reproduction of a hang-then-crash bug in [Microsoft
 RDLC Report Designer for Visual
-Studio](https://marketplace.visualstudio.com/items?itemName=ProBITools.MicrosoftRdlcReportDesignerforVisualStudio-18001)
-14.2.  To reproduce:
+Studio](https://marketplace.visualstudio.com/items?itemName=ProBITools.MicrosoftRdlcReportDesignerforVisualStudio-18001).  To reproduce:
 
 1. Open `RdlcDesignerAddDatasetCrash.sln` in Microsoft Visual Studio Community
-   2017 Version 15.8.9.
+   2019 version 16.11.7 with RDLC Report Designer version 15.3.1.
 2. Run [`Update-Package
    -reinstall`](https://docs.microsoft.com/en-us/nuget/consume-packages/reinstalling-and-updating-packages)
    in the Package Manger Console.  **Important:** Restore is insufficient.
